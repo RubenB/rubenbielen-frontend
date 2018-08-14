@@ -1,19 +1,66 @@
 .intro {
     &-caption {
-        margin-top: 5rem;
+        margin-top: 2.5rem;
     }
     &-subtext {
         .cursor {
             animation: 1s blink step-end infinite;
         }
     }
+    .bio {
+        margin-top: 2.5rem;
+        &-image {
+            border: 3px solid $black;
+            width: 100%;
+            box-shadow: 5px 5px 1px 0px rgba($black, 0.5);
+        }
+        &-social {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }   
+        article {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+            p {
+                display: flex;
+                flex: 1;
+            }
+            .read-more {
+                display: flex;
+                align-self: flex-end;
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
+
+// Smartphone and up
+@include media-breakpoint-up(sm) {
+    .intro {
+        &-caption {
+            text-align: right;
+        }
+        .bio {
+            &-social {
+                flex-direction: row;
+            }
+            article {
+                margin: inherit;
+            }
+        }
+    }    
 }
 
 // Tablet and up
 @include media-breakpoint-up(md) {
     .intro {
         &-caption {
-            text-align: right,
+            margin-top: 5rem;
+        }
+        .bio {
+            margin-top: 5rem;
         }
     }    
 }

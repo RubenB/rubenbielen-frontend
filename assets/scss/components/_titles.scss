@@ -1,8 +1,5 @@
 @mixin title($font-size) {
-    @include media-breakpoint-down(sm) {
-        $font-size: $font-size;
-    }
-    font-family: $font-family;
+    font-family: $font-family-space;
     font-size: $font-size;
     @include line-height($font-size, true);
     font-weight: 400;
@@ -13,25 +10,42 @@
 
 h1 {
     @include title($font-size-h1);
+    @include media-breakpoint-down(md) {
+        @include title($font-size-h1 - 0.7);
+    }
 }
 
 h2 {
     @include title($font-size-h2);
+    @include media-breakpoint-down(md) {
+        @include title($font-size-h2 - 0.7);
+    }
 }
 
 h3 {
     @include title($font-size-h3);
+    @include media-breakpoint-down(md) {
+        @include title($font-size-h3 - 0.7);
+    }
 }
 
 h4 {
     @include title($font-size-h4);
+    @include media-breakpoint-down(md) {
+        @include title($font-size-h4 - 0.7);
+    }
 }
 
 h5 {
     @include title($font-size-h5);
+    @include media-breakpoint-down(md) {
+        @include title($font-size-h5 - 0.7);
+    }
 }
 
 h6 {
     @include title($font-size-h6);
-    @include line-height($font-size-h1, true);
+    @include media-breakpoint-down(md) {
+        @include title($font-size-h6 - 0.7);
+    }
 }
