@@ -1,0 +1,19 @@
+.intro {
+    &-caption {
+        margin-top: 5rem;
+    }
+    &-subtext {
+        .cursor {
+            animation: 1s blink step-end infinite;
+        }
+    }
+}
+
+// Tablet and up
+@include media-breakpoint-up(md) {
+    .intro {
+        &-caption {
+            text-align: right,
+        }
+    }    
+}

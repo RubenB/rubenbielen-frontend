@@ -1,0 +1,7 @@
+@mixin line-height($size, $is-title: false) {
+    @if $is-title {
+        line-height: $size * 1.25;
+    } @else {
+        line-height: $size * 1.5;
+    }
+}
