@@ -1,7 +1,7 @@
 <template>
   <section class="intro container">
     <div class="row">
-      <div class="col-12 col-sm-8 intro-caption">
+      <div class="col-12 col-sm-8 col-md-7 intro-caption">
         <h1>Hi I'm <strong>Ruben</strong></h1>
       </div>
     </div>
