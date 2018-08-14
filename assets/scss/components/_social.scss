@@ -11,16 +11,10 @@
         
         &.twitter {
             color: #2AA3EF;
-            &:hover {
-                color: darken(#2AA3EF, 20%);
-            }
         }
     
         &.github {
             color: #24292E;
-            &:hover {
-                color: lighten(#24292E, 20%);
-            }
         }
     }
 }
