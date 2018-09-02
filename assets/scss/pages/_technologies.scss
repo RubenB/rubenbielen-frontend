@@ -10,6 +10,16 @@
 
     .technology {
         margin-bottom: 3rem;
+        &-images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &-image {
+            width: 64px;
+            margin-right: 6px;
+            margin-bottom: 6px;
+        }
     }
 }
 

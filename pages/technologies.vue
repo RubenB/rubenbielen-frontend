@@ -11,7 +11,18 @@
           title="doing/using" 
           class="technology"
         >
-          skills
+          <div class="technology-images">
+            <span 
+              v-for="(technologyUsing, index) in technologiesUsing" 
+              :key="index"
+            >
+              <img 
+                :src="require(`@/assets/images/projects/technologies/${technologyUsing}.png`)"
+                :alt="technologyUsing"
+                class="technology-image"
+              >
+            </span>
+          </div>
         </rb-card>
       </div>
       <div class="col-12 col-sm-6">
@@ -19,7 +30,18 @@
           title="learning/trying" 
           class="technology"
         >
-          learning/trying
+          <div class="technology-images">
+            <span 
+              v-for="(technologyLearning, index) in technologiesLearning"
+              :key="index"
+            >
+              <img 
+                :src="require(`@/assets/images/projects/technologies/${technologyLearning}.png`)"
+                :alt="technologyLearning"
+                class="technology-image"
+              >
+            </span>
+          </div>
         </rb-card>
       </div>
     </div>
@@ -32,6 +54,36 @@ import rbCard from '../components/card';
 export default {
   components: {
     rbCard
+  },
+  data() {
+    return {
+      technologiesLearning: [
+        'aws',
+        'react',
+        'angular',
+        'typescript'
+      ],
+      technologiesUsing: [
+        'html5',
+        'css3',
+        'js',
+        'webpack',
+        'babel',
+        'bootstrap',
+        'jquery',
+        'docker',
+        'vagrant',
+        'vue',
+        'sass',
+        'git',
+        'gulp',
+        'nodejs',
+        'java',
+        'firebase',
+        'mysql',
+        'sql'
+      ]
+    }
   }
 }
 </script>
