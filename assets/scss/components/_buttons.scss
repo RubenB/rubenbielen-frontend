@@ -6,9 +6,9 @@
     padding: 0.5rem 1.5rem;
 
     &-primary {
-        background-color: lightcyan;
+        background-color: $primary;
         &:hover {
-            background-color: darken(lightcyan, 10%);
+            background-color: darken($primary, 10%);
             transition: background-color 0.1s ease-in-out;
         }
     }
