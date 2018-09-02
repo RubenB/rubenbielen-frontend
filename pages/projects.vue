@@ -43,12 +43,12 @@
             </div>
             <div class="project-content col-12 col-md-6">
               <div class="row project-detail">
-                <div class="col-12 col-sm-6"><strong>Platform</strong></div>
-                <div class="col-12 col-sm-6">Intershop 7.9</div>
+                <div class="col-12"><strong>Platform</strong></div>
+                <div class="col-12">Intershop 7.9</div>
               </div>
               <div class="row project-detail">
-                <div class="col-12 col-sm-6"><strong>Role</strong></div>
-                <div class="col-12 col-sm-6">Mainly Backend Developer</div>
+                <div class="col-12"><strong>Role</strong></div>
+                <div class="col-12">Mainly Backend Developer</div>
               </div>
             </div>
           </div>
@@ -66,12 +66,12 @@
             </div>
             <div class="project-content col-12 col-md-6">
               <div class="row project-detail">
-                <div class="col-12 col-sm-6"><strong>Platform</strong></div>
-                <div class="col-12 col-sm-6">Spring Boot + Angular 1</div>
+                <div class="col-12"><strong>Platform</strong></div>
+                <div class="col-12">Spring Boot + Angular 1</div>
               </div>
               <div class="row project-detail">
-                <div class="col-12 col-sm-6"><strong>Role</strong></div>
-                <div class="col-12 col-sm-6">Full Stack</div>
+                <div class="col-12"><strong>Role</strong></div>
+                <div class="col-12">Full Stack</div>
               </div>
             </div>
           </div>
@@ -89,12 +89,12 @@
             </div>
             <div class="project-content col-12 col-md-6">
               <div class="row project-detail">
-                <div class="col-12 col-sm-6"><strong>Platform</strong></div>
-                <div class="col-12 col-sm-6">Intershop 6.4</div>
+                <div class="col-12"><strong>Platform</strong></div>
+                <div class="col-12">Intershop 6.4</div>
               </div>
               <div class="row project-detail">
-                <div class="col-12 col-sm-6"><strong>Role</strong></div>
-                <div class="col-12 col-sm-6">Backend Developer</div>
+                <div class="col-12"><strong>Role</strong></div>
+                <div class="col-12">Backend Developer</div>
               </div>
             </div>
           </div>
