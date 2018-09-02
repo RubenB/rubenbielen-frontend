@@ -7,60 +7,33 @@
             animation: 1s blink step-end infinite;
         }
     }
-    .bio {
+    .info {
         margin-top: 2.5rem;
         &-image {
             border: 3px solid $black;
             width: 100%;
-            box-shadow: 3px 3px 0px 0px rgba($black, 0.5);
+            box-shadow: 5px 5px 0px 0px rgba($black, 0.4);
+            margin-bottom: 2rem;
+        } 
+
+        &-items {
+            list-style: none;
+            padding: 0;
         }
-        &-social {
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: 1rem;
-        }   
-        article {
-            display: flex;
-            flex-direction: column;
-            margin-top: 1rem;
-            p {
+
+        &-read-more {
+            margin-top: 1.5rem;
+            .btn {
                 display: flex;
-                flex: 1;
-            }
-            .read-more {
-                display: flex;
-                align-self: flex-end;
-                margin-bottom: 0.5rem;
+                justify-content: center;
+                width: 100%;
             }
         }
     }
 }
 
-// Smartphone and up
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-down(sm) {
     .intro {
-        &-caption {
-            text-align: right;
-        }
-        .bio {
-            &-social {
-                flex-direction: row;
-            }
-            article {
-                margin: inherit;
-            }
-        }
-    }    
-}
-
-// Tablet and up
-@include media-breakpoint-up(md) {
-    .intro {
-        &-caption {
-            margin-top: 5rem;
-        }
-        .bio {
-            margin-top: 5rem;
-        }
-    }    
+        padding-top: 4.5rem
+    }
 }

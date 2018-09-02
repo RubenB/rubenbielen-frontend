@@ -6,6 +6,7 @@
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/solid";
 
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
@@ -13,10 +14,12 @@
 @import "~bootstrap/scss/reboot";
 @import "~bootstrap/scss/grid";
 
+@import 'components/menu';
 @import 'components/titles';
 @import 'components/keyframes';
-@import 'components/card';
 @import 'components/social';
 @import 'components/buttons';
 
 @import 'pages/introduction';
+@import 'pages/projects';
+@import 'pages/technologies';

@@ -1,0 +1,81 @@
+.hamburger {
+    position: absolute;
+    display: flex;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    z-index: 200;
+    justify-content: center;
+    align-items: center;
+    i {
+        width: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &:hover,
+    &.active {
+        background: lightcyan;
+        border-color: $black;
+    }
+    .icon-hamburger {
+        transition: opacity .3s, transform .3s;
+        position: absolute;
+        opacity: 1;
+    }
+    .icon-close {
+        transition: opacity .3s, transform .3s;
+        opacity: 0;
+    }
+    &.active {
+        .icon-hamburger {
+            transition: opacity .3s, transform .3s;
+            transition-delay: .1s;
+            opacity: 0;
+            transform: rotate(360deg);
+        }
+        .icon-close {
+            transition: opacity .3s, transform .3s;
+            transition-delay: .1s;
+            opacity: 1;
+            transform: rotate(360deg);
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .hamburger {
+        top: 2rem;
+        left: 2rem;
+    }
+}
+
+nav {
+    &.open {
+        transform: translateX(0%);
+        transform-origin: 0% 50%;
+        transition: transform 0.6s ease-in-out;
+    }
+    z-index: 100;
+    border-right: 3px solid $black;
+    background-color: white;
+    transform: translateX(-100%);
+    transform-origin: 0% 50%;
+    transition: transform 0.6s ease-in-out;
+    position: sticky;
+    height: 100%;
+    position: absolute;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 6rem 0 0 0;
+        li {
+            font-family: $font-family-space;
+            font-weight: bolder;
+            padding: 0 2rem 1rem 2rem;
+        }
+    }
+}
