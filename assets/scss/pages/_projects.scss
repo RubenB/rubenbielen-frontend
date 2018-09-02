@@ -1,0 +1,35 @@
+.projects {
+    &-caption {
+        margin-top: 2.5rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        .cursor {
+            animation: 1s blink step-end infinite;
+        }
+    }
+
+    .project {
+        margin-bottom: 3rem;
+        &-image {
+            img {
+                width: 100%;
+            }
+        }
+
+        &-detail {
+            margin-bottom: 1rem;
+        }
+
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .projects {
+        padding-top: 4.5rem;
+        .project {
+            &-image {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

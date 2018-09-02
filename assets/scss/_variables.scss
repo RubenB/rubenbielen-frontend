@@ -1,0 +1,18 @@
+$font-family-fallback: Arial, sans-serif;
+$font-family-space: 'SpaceMono', $font-family-fallback;
+$font-family-tahoma: 'Tahoma', $font-family-fallback;
+
+$font-size-default: 16px;
+$font-size-h1: 3.2rem;
+$font-size-h2: 3rem;
+$font-size-h3: 2.7rem;
+$font-size-h4: 2.5rem;
+$font-size-h5: 2.2rem;
+$font-size-h6: 2rem;
+
+$black: #000000;
+$white: #ffffff;
+$primary: #98FB98;
+
+$fa-path: "../../node_modules/@fortawesome/fontawesome-free";
+$fa-font-path: $fa-path + "/webfonts";

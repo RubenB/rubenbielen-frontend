@@ -1,0 +1,9 @@
+html, body, main {
+    background: whitesmoke;
+    font-size: $font-size-default;
+    @include line-height($font-size-default);
+}
+
+main {
+    margin-bottom: 2rem;
+}

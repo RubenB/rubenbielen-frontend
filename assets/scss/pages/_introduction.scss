@@ -1,0 +1,39 @@
+.intro {
+    &-caption {
+        margin-top: 2.5rem;
+    }
+    &-subtext {
+        .cursor {
+            animation: 1s blink step-end infinite;
+        }
+    }
+    .info {
+        margin-top: 2.5rem;
+        &-image {
+            border: 3px solid $black;
+            width: 100%;
+            box-shadow: 5px 5px 0px 0px rgba($black, 0.4);
+            margin-bottom: 2rem;
+        } 
+
+        &-items {
+            list-style: none;
+            padding: 0;
+        }
+
+        &-read-more {
+            margin-top: 1.5rem;
+            .btn {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .intro {
+        padding-top: 4.5rem
+    }
+}
