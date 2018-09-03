@@ -32,12 +32,22 @@
       </div>
     </div>
     <div class="row">
-      <div class="offset-lg-4 col-lg-4 offset-sm-3 col-sm-6 col-12 info-read-more">
+      <div class="offset-lg-4 col-lg-2 offset-sm-3 col-sm-3 col-12 info-read-more">
         <a 
-          href="#" 
+          href="https://github.com/RubenB" 
           class="btn btn-primary read-more"
+          target="_black"
         >
-          <span>Read more</span>
+          <span>github</span>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-3 col-12 info-read-more">
+        <a 
+          href="https://dev.to/rubenb" 
+          class="btn btn-primary read-more"
+          target="_black"
+        >
+          <span>dev.to</span>
         </a>
       </div>
     </div>
