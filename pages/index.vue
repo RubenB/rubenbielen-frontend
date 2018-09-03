@@ -23,10 +23,10 @@
           title="Personal info"
         >
           <ul class="info-items">
-            <li>😊 Ruben Bielen</li>
-            <li>🍰 I am {{ age }} years old</li>
-            <li>💻 All around webdeveloper</li>
-            <li>🇧🇪 Belgium</li>
+            <li><span class="emoji">😊</span> Ruben Bielen</li>
+            <li><span class="emoji">🍰</span> I am {{ age }} years old</li>
+            <li><span class="emoji">💻</span> All around webdeveloper</li>
+            <li><span class="emoji">🇧🇪</span> Belgium</li>
           </ul>
         </rb-card>
       </div>
