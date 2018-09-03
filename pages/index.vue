@@ -23,21 +23,31 @@
           title="Personal info"
         >
           <ul class="info-items">
-            <li>😊 Ruben Bielen</li>
-            <li>🍰 I am {{ age }} years old</li>
-            <li>💻 All around webdeveloper</li>
-            <li>🇧🇪 Belgium</li>
+            <li><span class="emoji">😊</span> Ruben Bielen</li>
+            <li><span class="emoji">🍰</span> I am {{ age }} years old</li>
+            <li><span class="emoji">💻</span> All around webdeveloper</li>
+            <li><span class="emoji">🇧🇪</span> Belgium</li>
           </ul>
         </rb-card>
       </div>
     </div>
     <div class="row">
-      <div class="offset-lg-4 col-lg-4 offset-sm-3 col-sm-6 col-12 info-read-more">
+      <div class="offset-lg-4 col-lg-2 offset-sm-3 col-sm-3 col-12 info-read-more">
         <a 
-          href="#" 
+          href="https://github.com/RubenB" 
           class="btn btn-primary read-more"
+          target="_black"
         >
-          <span>Read more</span>
+          <span>github</span>
+        </a>
+      </div>
+      <div class="col-lg-2 col-sm-3 col-12 info-read-more">
+        <a 
+          href="https://dev.to/rubenb" 
+          class="btn btn-primary read-more"
+          target="_black"
+        >
+          <span>dev.to</span>
         </a>
       </div>
     </div>

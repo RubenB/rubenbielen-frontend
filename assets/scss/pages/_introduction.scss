@@ -17,6 +17,11 @@
         } 
 
         &-items {
+            .emoji {
+                vertical-align: sub;
+                font-size: 1.5rem;
+                @include line-height(1.5rem);
+            }
             list-style: none;
             padding: 0;
         }

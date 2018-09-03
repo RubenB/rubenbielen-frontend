@@ -20,7 +20,7 @@
           <a href="/projects">Projects</a>
         </li>
         <li>
-          <a href="">Personal Projects</a>
+          <a href="/personal">Personal Projects</a>
         </li>
         <li>
           <a href="/technologies">Technologies</a>
