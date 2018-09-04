@@ -1,5 +1,5 @@
 .hamburger {
-    position: absolute;
+    position: fixed;
     display: flex;
     top: 0.5rem;
     left: 0.5rem;
@@ -63,9 +63,8 @@ nav {
     transform: translateX(-100%);
     transform-origin: 0% 50%;
     transition: transform 0.5s ease-in-out;
-    position: sticky;
+    position: fixed;
     height: 100%;
-    position: absolute;
     ul {
         list-style: none;
         padding: 0;
