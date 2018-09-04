@@ -108,8 +108,13 @@
 import rbCard from '../components/card';
 
 export default {
+  transition: 'fade',
   components: {
     rbCard
   }
 }
 </script>
+
+<style lang="scss">
+@import 'assets/scss/components/transition';
+</style>

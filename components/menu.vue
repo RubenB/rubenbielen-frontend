@@ -14,16 +14,16 @@
     >
       <ul>
         <li>
-          <a href="/">Info</a>
+          <nuxt-link to="/">Info</nuxt-link>
         </li>
         <li>
-          <a href="/projects">Projects</a>
+          <nuxt-link to="/projects">Projects</nuxt-link>
         </li>
         <li>
-          <a href="/personal">Personal Projects</a>
+          <nuxt-link to="/personal">Personal Projects</nuxt-link>
         </li>
         <li>
-          <a href="/technologies">Technologies</a>
+          <nuxt-link to="/technologies">Technologies</nuxt-link>
         </li>
       </ul>
     </nav>
