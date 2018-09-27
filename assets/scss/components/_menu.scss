@@ -6,12 +6,10 @@
     z-index: 100;
     width: 50px;
     height: 50px;
-    border: 3px solid whitesmoke;
+    border: 3px solid transparent;
     z-index: 200;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, $primary 50%, transparent 50%);
-    background-size: 200% 100%;
     transition: background 0.1s linear;
     background-position: right bottom;  
     i {
@@ -21,7 +19,8 @@
         align-items: center;
     }
     &:hover,
-    &.active {
+    &.active {    
+        background-size: 200% 100%;
         border-color: $black;
         transition: background 0.1s linear;
         background-position: left bottom;
@@ -75,11 +74,10 @@ nav {
             padding: 0 0.5rem 1rem 0.5rem;
             a {
                 color: $black;
-                background: linear-gradient(to right, $primary 50%, transparent 50%);
-                background-size: 200% 100%;
                 transition: all 0.1s linear;
                 background-position: right bottom;  
                 &:hover {
+                    background-size: 200% 100%;
                     transition: all 0.1s linear;
                     background-position: left bottom;
                     text-decoration: none;

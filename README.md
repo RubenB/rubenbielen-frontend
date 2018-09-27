@@ -6,4 +6,4 @@
 - Cleanup scss
 - Componentize technology logo's
 - CLI-ify the site 😵
-- Dynamic primary colors (lightgreen, lightyellow, lightblue, lightsalmon, lightskyblue)
+x Dynamic primary colors (lightgreen, lightyellow, lightblue, lightsalmon, lightskyblue) 

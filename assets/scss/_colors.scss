@@ -1,0 +1,101 @@
+.lightgreen {
+    background-color: lightgreen;
+    &:hover {
+        background-color: darken(lightgreen, 10%);
+    }
+}
+
+.lightyellow {
+    background-color: lightyellow;
+    &:hover {
+        background-color: darken(lightyellow, 10%);
+    }
+}
+
+.lightblue {
+    background-color: lightblue;
+    &:hover {
+        background-color: darken(lightblue, 10%);
+    }
+}
+
+.lightsalmon {
+    background-color: lightsalmon;
+    &:hover {
+        background-color: darken(lightsalmon, 10%);
+    }
+}
+
+.lightskyblue {
+    background-color: lightskyblue;
+    &:hover {
+        background-color: darken(lightskyblue, 10%);
+    }
+}
+
+.lightgoldenrodyellow {
+    background-color: lightgoldenrodyellow;
+    &:hover {
+        background-color: darken(lightgoldenrodyellow, 10%);
+    }
+}
+
+.lightseagreen {
+    background-color: lightseagreen;
+    &:hover {
+        background-color: darken(lightseagreen, 10%);
+    }
+}
+
+.lightsteelblue {
+    background-color: lightsteelblue;
+    &:hover {
+        background-color: darken(lightsteelblue, 10%);
+    }
+}
+
+.lightcoral {
+    background-color: lightcoral;
+    &:hover {
+        background-color: darken(lightcoral, 10%);
+    }
+}
+
+
+/**** SLIDE ****/
+
+.lightgreen-slide {
+    background: linear-gradient(to right, lightgreen 50%, transparent 50%);
+}
+
+.lightyellow-slide {
+    background: linear-gradient(to right, lightyellow 50%, transparent 50%);
+}
+
+.lightblue-slide {
+    background: linear-gradient(to right, lightblue 50%, transparent 50%);
+}
+
+.lightsalmon-slide {
+    background: linear-gradient(to right, lightsalmon 50%, transparent 50%);
+}
+
+.lightskyblue-slide {
+    background: linear-gradient(to right, lightskyblue 50%, transparent 50%);
+}
+
+.lightgoldenrodyellow-slide {
+    background: linear-gradient(to right, lightgoldenrodyellow 50%, transparent 50%);
+}
+
+.lightseagreen-slide {
+    background: linear-gradient(to right, lightseagreen 50%, transparent 50%);
+}
+
+.lightsteelblue-slide {
+    background: linear-gradient(to right, lightsteelblue 50%, transparent 50%);
+}
+
+.lightcoral-slide {
+    background: linear-gradient(to right, lightcoral 50%, transparent 50%);
+}

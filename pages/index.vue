@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="row info">
-      <div class="offset-lg-4 col-lg-4 offset-sm-3 col-sm-6 col-12">
+      <div class="offset-lg-5 col-lg-2 offset-sm-3 col-sm-6 col-12">
         <img 
           src="@/assets/images/profile.jpg" 
           alt="Ruben Bielen"
@@ -34,6 +34,7 @@
     <div class="row">
       <div class="offset-lg-4 col-lg-2 offset-sm-3 col-sm-3 col-12 info-read-more">
         <a 
+          v-random-color-background
           href="https://github.com/RubenB" 
           class="btn btn-primary read-more"
           target="_black"
@@ -43,6 +44,7 @@
       </div>
       <div class="col-lg-2 col-sm-3 col-12 info-read-more">
         <a 
+          v-random-color-background
           href="https://dev.to/rubenb" 
           class="btn btn-primary read-more"
           target="_black"
