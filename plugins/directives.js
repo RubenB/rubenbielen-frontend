@@ -19,17 +19,23 @@ Vue.directive('random-color-menu', {
       if (!el.classList.contains('active')) {
         let randomColorClass = colorClasses[Math.floor(Math.random() * colorClasses.length)];
         currentColor = randomColorClass;
-        el.classList.add(randomColorClass);
+        el.parentNode.classList.add(randomColorClass);
       }
     });
 
     el.addEventListener("mouseleave", function () {
       if (!el.classList.contains('active')) {
-        el.classList.remove(currentColor);
+        el.parentNode.classList.remove(currentColor);
         currentColor = null;
       }
     });
 
+    document.addEventListener("click", function (e) {
+      if (!e.target.closest("nav.nav") && ! e.target.classList.contains("hamburger")) {
+        el.parentNode.classList.remove(currentColor);
+        currentColor = null;
+      }
+    });
 
   }
 });

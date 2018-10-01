@@ -65,37 +65,55 @@
 /**** SLIDE ****/
 
 .lightgreen-slide {
-    background: linear-gradient(to right, lightgreen 50%, transparent 50%);
+    > .hamburger, > a {
+        background: linear-gradient(to right, lightgreen 50%, transparent 50%);
+    }
 }
 
 .lightyellow-slide {
-    background: linear-gradient(to right, lightyellow 50%, transparent 50%);
+    > .hamburger, > a {
+        background: linear-gradient(to right, lightyellow 50%, transparent 50%);
+    }
 }
 
 .lightblue-slide {
-    background: linear-gradient(to right, lightblue 50%, transparent 50%);
+    > .hamburger, > a {
+        background: linear-gradient(to right, lightblue 50%, transparent 50%);
+    }
 }
 
 .lightsalmon-slide {
-    background: linear-gradient(to right, lightsalmon 50%, transparent 50%);
+    > .hamburger, > a {
+        background: linear-gradient(to right, lightsalmon 50%, transparent 50%);
+    }
 }
 
 .lightskyblue-slide {
-    background: linear-gradient(to right, lightskyblue 50%, transparent 50%);
+    > .hamburger, > a {
+        background: linear-gradient(to right, lightskyblue 50%, transparent 50%);
+    }
 }
 
 .lightgoldenrodyellow-slide {
-    background: linear-gradient(to right, lightgoldenrodyellow 50%, transparent 50%);
+    > .hamburger, > a {
+        background: linear-gradient(to right, lightgoldenrodyellow 50%, transparent 50%);
+    }
 }
 
 .lightseagreen-slide {
-    background: linear-gradient(to right, lightseagreen 50%, transparent 50%);
+    > .hamburger, > a {
+        background: linear-gradient(to right, lightseagreen 50%, transparent 50%);
+    }
 }
 
 .lightsteelblue-slide {
-    background: linear-gradient(to right, lightsteelblue 50%, transparent 50%);
+    > .hamburger, > a {
+        background: linear-gradient(to right, lightsteelblue 50%, transparent 50%);
+    }
 }
 
 .lightcoral-slide {
-    background: linear-gradient(to right, lightcoral 50%, transparent 50%);
+    > .hamburger, > a {
+        background: linear-gradient(to right, lightcoral 50%, transparent 50%);
+    }
 }
