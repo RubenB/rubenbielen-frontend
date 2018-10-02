@@ -46,6 +46,14 @@
             Technologies
           </nuxt-link>
         </li>
+        <li>
+          <a
+            v-random-color-menu
+            href="https://console.rubenbielen.com"
+          >
+            Webapp console (WIP)
+          </a>
+        </li>
       </ul>
     </nav>
   </div>
