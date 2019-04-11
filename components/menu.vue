@@ -18,6 +18,7 @@
           <nuxt-link 
             v-random-color-menu
             to="/"
+            @click.native="hide"
           >
             Info
           </nuxt-link>
@@ -26,14 +27,16 @@
           <nuxt-link 
             v-random-color-menu
             to="/projects"
+            @click.native="hide"
           >
             Projects
           </nuxt-link>
         </li>
         <li>
           <nuxt-link 
-            v-random-color-menu 
+            v-random-color-menu
             to="/personal"
+            @click.native="hide"
           >
             Personal Projects
           </nuxt-link>
@@ -42,6 +45,7 @@
           <nuxt-link 
             v-random-color-menu
             to="/technologies"
+            @click.native="hide"
           >
             Technologies
           </nuxt-link>

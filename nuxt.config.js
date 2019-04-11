@@ -3,14 +3,14 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: "rubenbielen-frontend",
+    title: "Ruben Bielen - Web Developer",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "Portfolio frontend project"
+        content: "Ruben Bielen is een Web Developer die graag bezig is met zowel frontend als backend development."
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]

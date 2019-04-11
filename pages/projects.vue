@@ -8,6 +8,29 @@
     <div class="row">
       <div class="col-12">
         <rb-card 
+          title="torfs.be" 
+          class="project"
+        >
+          <div class="row">
+            <div class="project-image col-12 col-md-6">
+              <img 
+                src="@/assets/images/projects/homepage/torfs-homepage.png" 
+                alt="torfs.be"
+              >
+            </div>
+            <div class="project-content col-12 col-md-6">
+              <div class="row project-detail">
+                <div class="col-12"><strong>Platform</strong></div>
+                <div class="col-12">Salesforce Commerce Cloud</div>
+              </div>
+              <div class="row project-detail">
+                <div class="col-12"><strong>Role</strong></div>
+                <div class="col-12">Full Stack</div>
+              </div>
+            </div>
+          </div>
+        </rb-card>
+        <rb-card 
           title="jbc.be" 
           class="project"
         >
