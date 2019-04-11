@@ -31,7 +31,7 @@ Vue.directive('random-color-menu', {
     });
 
     document.addEventListener("click", function (e) {
-      if (!e.target.closest("nav.nav") && ! e.target.classList.contains("hamburger")) {
+      if (!e.target.classList.contains("hamburger")) {
         el.parentNode.classList.remove(currentColor);
         currentColor = null;
       }
